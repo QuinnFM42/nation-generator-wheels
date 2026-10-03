@@ -17,9 +17,14 @@ Alternate Victorian-era world where magic replaces gunpowder. Custom map using t
 - Living world: AI-to-AI diplomacy, alliances and wars; faith spread between states; migration; trade routes with piracy risk; terrain-driven hazard odds; Earth-mode real names, languages and cultures.
 - Statecraft additions: colonies, peace terms (annex / ceded provinces / etc.), espionage (steal tech, plots, counter-intelligence), great people as named characters, industry panel with production/imports/exports.
 - Map: 11 filters (political, terrain, relations, wealth, density, development, military, religion, language, alliances, provinces), provinces, tap a city to inspect it, expand view, 3D globe; history timeline and replay of border snapshots.
+- War Room: per-war deployments (land/naval/air stance) feed a yearly tactical resolution; army composition (infantry/cavalry/artillery/mages/golems) with terrain effectiveness and rock-paper-scissors counters; troop eras (medieval → musket → rifle → modern, landships); tech breakthroughs clash head-to-head (capped ×3); peace can restore pre-war borders.
+- Growth ceilings: population capped by food + imports, GDP/capita by tech; overshoot causes overpopulation cuts and unrest; troop counts soft-capped by population.
+- World firsts: first nation to master a breakthrough tech gains legitimacy and a headline.
+- Newspaper: multi-section yearly paper (front page, home, abroad, science, editorial, oddities, almanac), with role-specific coverage in roles mode.
+- 3D: immersive tilted 3D world map, 🎖️ Armory viewer with era-appropriate unit models.
 - Balance: diminishing-returns caps on stacked bonuses, overextension penalties, coalitions, AI economic/military parity; war odds match displayed modifiers.
 
 ## Dev notes
-- Baseline SHA-256 of `index.html`: `ce466625a78b6decad7c278e18ae312d25189867fd7415eb7fa94e76d0c8640b`
+- Baseline SHA-256 of `index.html`: `2f96e18fc0ac8132b8d492f87faae3f000a78b8f0357e9a17d52ee1214419ac1`
 - Never name a global helper `top` — it collides with `window.top` and silently breaks the wheel.
 - Regression-test changes (multi-seed, multi-decade sims) before merging.
